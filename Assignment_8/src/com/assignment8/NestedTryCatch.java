@@ -13,6 +13,7 @@ public class NestedTryCatch {
 				int a = 3/0; //we get an exception over here
 			}
 			catch(Exception e) {
+				// this catch gets executed
 				System.out.println("Inner try exception: " + e.getMessage());
 			}
 		}
