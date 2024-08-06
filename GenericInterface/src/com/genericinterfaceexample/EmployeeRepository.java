@@ -21,5 +21,10 @@ public class EmployeeRepository implements GenericRepository<Employee> {
 		return employeedatabase.get(id); // returns object
 	}
 
+	@Override
+	public String toString() {
+		return "EmployeeRepository [employeedatabase=" + employeedatabase + ", currId=" + currId + "]";
+	}
+
 
 }
